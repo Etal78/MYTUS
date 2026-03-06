@@ -9,7 +9,6 @@ struct ComposeView: UIViewControllerRepresentable {
 
     func updateUIViewController(_ uiViewController: UIViewController, context: Context) {}
 }
-//asd asd
 struct ContentView: View {
     var body: some View {
         ComposeView()
